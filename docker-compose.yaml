@@ -1,0 +1,15 @@
+
+    
+services:
+  python-app:
+    platform: linux/amd64
+    image: atulkhajuria/python-app:2.0
+    build:
+      context: .
+    ports:
+      - "8000:5000"
+    volumes:
+      - python_data:/var/lib/pythondata
+
+volumes:
+  python_data: {}
