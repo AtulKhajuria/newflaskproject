@@ -36,5 +36,18 @@ stage('Unit Test') {
         }
 
     }
+
+    stage('Docker Build') {
+            steps {
+                script{
+                if(isUnix()){
+                sh "docker build -t  atulkhajuria/newflaskapp."
+                }
+                else{
+                 bat "docker build -t atulkhajuria/newflaskapp."
+                 }
+                 }
+            }
+        }
 }
 }
