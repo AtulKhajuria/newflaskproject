@@ -13,7 +13,7 @@ stages {
             sh "pip install -r requirements.txt"
             }
             else{
-            bat ""
+            bat "pip install -r requirements.txt"
             }
             }
 }
