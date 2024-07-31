@@ -1,16 +1,16 @@
 [
   {
     "productId": 4321,
-    "productName": "Iphone15",
+    "productName": "Iphone15Pro",
     "price": 90000.5
   },
   {
-    "productId": 7321,
-    "productName": "SamsungFlip",
-    "price": 47557.5
+    "productId": 3242,
+    "productName": "Oneplus12R",
+    "price": 90000.5
   },{
     "productId": 731,
-    "productName": "Motorola",
+    "productName": "Samsungflip",
     "price": 60000
   },
   {
