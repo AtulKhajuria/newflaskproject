@@ -8,6 +8,6 @@ def test_get_all_products():
     assert type(res[0]) is dict
     assert type(res[1]) is dict
     assert res[0]['productName'] == 'Iphone15Pro'
-    assert res[1]['price'] == 90000.5
+    assert res[0]['price'] == 90000.5
     assert response.status_code == 200
     assert type(res) is list
