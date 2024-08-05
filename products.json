@@ -18,4 +18,9 @@
     "productName": "Oneplus12R",
     "price": 50000.5
   }
+  {
+    "productId": 7777,
+    "productName": "Nokia",
+    "price": 50000
+  }
 ]
